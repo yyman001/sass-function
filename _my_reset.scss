@@ -1,0 +1,57 @@
+﻿@charset "utf-8";
+// html,
+// body{
+//  height: 100%;
+//  width: 100%;
+//  overflow: hidden;
+// }
+body{
+  -webkit-touch-callout: none;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  text-size-adjust: none;
+  -webkit-tap-highlight-color: transparent;
+  font-family: -apple-system,Helvetica Neue,Roboto,Segoe UI,sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-backface-visibility: hidden;
+  -webkit-user-drag: none;
+  -ms-content-zooming: none
+}
+body, h1, h2, h3, h4, h5, p, ul, li, dl, dt, dd {
+  margin: 0;
+  padding: 0;
+}
+
+body, button, input, select, textarea {
+  font-family:  \5FAE\8F6F\96C5\9ED1, \5B8B\4F53;
+}
+
+a {
+  text-decoration: none;
+  outline: 1px solid transparent;
+}
+
+a, img {
+  -webkit-touch-callout: none;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  display: block;
+  border: 0 none;
+  max-width: 100%;
+  user-select: none;
+}
+
+input, button {
+  -webkit-appearance: none;
+}
+
+
+#__bs_notify__ {
+  width: 100% !important;
+  font-size: 0.2em !important;
+}
