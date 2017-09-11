@@ -1,5 +1,11 @@
 ﻿@charset "utf-8";
 
+@mixin ratio($ratio:2) {
+  @media only screen and (-webkit-device-pixel-ratio: $ratio) {
+	@content;
+  }
+}
+
 //清除浮动
 @mixin clear() {
   &:after {
